@@ -1,0 +1,29 @@
+.App{
+  height: 100vh;
+  margin-top: 50px;
+}
+.App h2{
+  text-align: center;
+}
+.to-do-container {
+  border: 1px solid #3d3d3d;
+  width: 80%;
+  margin: auto;
+  padding: 25px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.to-do-container ul li{
+  width: 100%;
+  overflow-wrap: break-word;
+  list-style-type: "✅";
+  cursor: pointer;
+}
+.done{
+  text-decoration: line-through;
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
